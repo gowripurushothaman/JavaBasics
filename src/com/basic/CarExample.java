@@ -1,9 +1,10 @@
 package com.basic;
 
 public class CarExample {
+	int Speed,i;
 	public static void main(String[] args) {
 		Car car=new Car();
-		car.setSpeed(100);
+		car.speed=100;
 		CarExample carexample=new CarExample();
 		carexample.amethod(car);
 		System.out.println(car.getSpeed());
@@ -14,6 +15,7 @@ public class CarExample {
 	public void amethod(Car car) {
 		car.setSpeed(300);
 	}
+	
 		
 	
 }
