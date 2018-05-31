@@ -20,11 +20,7 @@ class Multiply{
 		this.secondValue = secondValue;
 	}
 	public Boolean multiple(int firstValue,int secondValue) {
-		if(secondValue==(firstValue*firstValue)) {
-			return true;
-		}
-		else
-			return false;
+	     return (secondValue%firstValue)==0? true:false;
 	}
 	public void even(int firstValue) {
 		if(firstValue%2==0)
