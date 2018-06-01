@@ -20,7 +20,10 @@ class Multiply{
 		this.secondValue = secondValue;
 	}
 	public Boolean multiple(int firstValue,int secondValue) {
-	     return (secondValue%firstValue)==0? true:false;
+		 return (secondValue%firstValue)==0? true:false;
+		
+		
+		 
 	}
 	public void even(int firstValue) {
 		if(firstValue%2==0)
@@ -34,9 +37,11 @@ class Multiply{
 public class Arithmatic {
 	public static void main(String[] args) {
 		Multiply m=new Multiply(3,9);
-		m.multiple(3,9);
+		System.out.println(m.multiple(3, 9));
 		m.setFirstValue(12);
 		m.even(m.getFirstValue());
+		 
+		
 		
 		
 	}
