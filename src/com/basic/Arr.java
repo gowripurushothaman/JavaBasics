@@ -2,7 +2,6 @@ package com.basic;
 
 public class Arr {
 	public static void main(String[] args) {
-		System.out.println("hi");
 		int N=1234,i;
 		int arr[]=new int[10];
 		i =0;
@@ -13,7 +12,6 @@ public class Arr {
 			i++;
 			
 		}
-		System.out.println("here");
 		for(i=0;i<10;i++) {
 			
 		System.out.print(arr[i]+" ,");
