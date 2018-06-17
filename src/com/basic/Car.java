@@ -4,6 +4,7 @@ public class Car {
 		double speed;
 		String model;
 		public Car() {
+			System.out.println("this is empty constructor");
 			
 		}
 		
@@ -29,6 +30,7 @@ public class Car {
 		}
 		public void Accelarate() {
 			speed+=10;
+			System.out.println("this is Accelarate value");
 		}
 		public static void main(String[] args) {
 		Car car1=new Car();
